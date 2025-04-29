@@ -47,7 +47,7 @@
 }
 
 .project-card {
-    background: #fff;
+    background: transparent;
     border: 2px solid #c62828;
     padding: 1rem;
     border-radius: 8px;
