@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "name": "Landing Page Appa",
+        "description": "Landing page para a ONG Appa. Fui responsavel pela implementação.",
+        "github": "https://github.com/albmarques/appa",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "image": "../assets/images/screenshot-appa.jpeg"
+    },
+    {
+        "id": "1",
+        "name": "Chromodoro",
+        "description": "Timer Pomodoro.",
+        "github": "https://github.com/felipe-coletti/Chromodoro",
+        "technologies": ["Handlebars", "CSS", "JavaScript", "Bootstrap"],
+        "image": "../assets/images/screenshot-chromodoro.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "AudiTech",
+        "description": "Sistema hospitalar completo focado o atendimento de pacientes com TPAC com gestão de funcionários, agendamento de consulta e uma espécie de jogo que ajuda no tratamento. Fui responsavel pelo front end.",
+        "github": "https://github.com/audi-med/treatment-frontend",
+        "technologies": ["React", "CSS Modules", "Java Spring Boot"],
+        "image": "../assets/images/screenshot-auditech.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "BookSystem",
+        "description": "Sistema de gerenciamento de biblioteca e aluguel automático de livros. Fui responsavel pelo front end e participei de coreeções no back end.",
+        "github": "https://github.com/felipe-coletti/BookSystem",
+        "technologies": ["React", "CSS Modules", "Java Spring Boot"],
+        "image": "../assets/images/screenshot-booksystem.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "Find Bus",
+        "description": "Aplicativo mobile para localizar ônibus, rotas e pontos de parada em SP. Fui responsavel pelo front end.",
+        "github": "https://github.com/findbuss/find-bus-mobile",
+        "technologies": ["React Native", "Node.js", "Express"],
+        "image": "../assets/images/screenshot-findbus.png"
+    },
+    {
+        "id": "5",
+        "name": "Find Bus 2",
+        "description": "Versão multiplataforma do aplicativo para localizar ônibus, rotas e pontos de parada em SP. Fui responsavel pela refatoração completa do front end e pela migração do mesmo de JavaScript para TypeScript.",
+        "github": "https://github.com/findbuss/find-bus-mobile",
+        "technologies": ["React", "React Native", "Electron", "TypeScript", "Kotlin Spring Boot"],
+        "image": "../assets/images/screenshot-findbus-v2.png"
+    }
+]
