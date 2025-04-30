@@ -1,3 +1,14 @@
+:root {
+    --color-accent: #c62828;
+    --color-border: #e0e0e0;
+    --color-hover: #ffffff25;
+    --color-link: #4361ee;
+    --color-primary-background: #f9f9f9;
+    --color-primary-text: #333;
+    --color-secondary-background: #fff;
+    --color-shadow: #0000001a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +17,8 @@
 }
 
 body {
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--color-primary-background);
+    color: var(--color-primary-text);
 }
 
 ul {
@@ -24,12 +35,29 @@ ul {
 
 .box,
 .modal {
-    background: white;
+    align-items: start;
+    background: var(--color-secondary-background);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px var(--color-shadow);
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.primary-title {
+    font-size: 2rem;
+}
+
+.secondary-title {
+    font-size: 1.5rem;
+}
+
+.tertiary-title {
+    font-size: 1.25rem;
+}
+
+.paragraph {
+    font-size: 1rem;
 }

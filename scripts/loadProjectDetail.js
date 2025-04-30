@@ -12,23 +12,21 @@ fetch('./data/projects.json')
             const container = document.getElementById('project-details')
             container.innerHTML = `
                 <header id="header">
-                    <h1 id="project-name">${project.name}</h1>
-                    <a href="index.html">← Voltar para o Portfólio</a>
+                    <h1 id="project-name" class="primary-title">${project.name}</h1>
+                    <a class="back-link" href="index.html">← Voltar para o Portfólio</a>
                 </header>
-                <h2>Visão Geral do Projeto</h2>
-                <p>${project.description}</p>
-                <h2>Repositório no GitHub</h2> 
-                <p><a href="${project.github}" target="_blank">${project.github}</a></p>
-                <img src="${project.image}" alt="Screenshot de ${
-                project.name
-            }" style="max-width:100%; margin-top:1rem;">
-                <h2>Tecnologias Utilizadas</h2>
-                <ul>
-                  ${project.technologies.map((tech) => `<li>${tech}</li>`).join('')}
+                <h2 class="secondary-title">Visão Geral do Projeto</h2>
+                <p class="paragraph">${project.description}</p>
+                <h2 class="secondary-title">Repositório no GitHub</h2> 
+                <a class="link" href="${project.github}" target="_blank">${project.github}</a>
+                <img class="project-image" src="${project.image}" alt="Screenshot de ${project.name}">
+                <h2 class="secondary-title">Tecnologias Utilizadas</h2>
+                <ul class="tag-group">
+                  ${project.technologies.map((tech) => `<li class="tag">${tech}</li>`).join('')}
                 </ul>
             `
         } else {
-            document.getElementById('project-details').innerHTML = '<p>Projeto não encontrado.</p>'
+            document.getElementById('project-details').innerHTML = '<p class="paragraph">Projeto não encontrado.</p>'
         }
     })
     .catch((error) => {
