@@ -17,8 +17,8 @@ fetch('./src/data/projects.json')
                 </header>
                 <h2 class="secondary-title">Visão Geral do Projeto</h2>
                 <p class="paragraph">${project.description}</p>
-                <h2 class="secondary-title">Repositório no GitHub</h2> 
-                <a class="link" href="${project.github}" target="_blank">${project.github}</a>
+                <h2 class="secondary-title">Repositório</h2> 
+                <a class="link" href="${project.src}" target="_blank">${project.src}</a>
                 <img class="project-image" src="${project.image}" alt="Screenshot de ${project.name}">
                 <h2 class="secondary-title">Tecnologias Utilizadas</h2>
                 <ul class="tag-group">
