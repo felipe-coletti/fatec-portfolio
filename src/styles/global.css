@@ -1,63 +1,63 @@
 :root {
-    --color-accent: #c62828;
-    --color-border: #e0e0e0;
-    --color-hover: #ffffff25;
-    --color-link: #4361ee;
-    --color-primary-background: #f9f9f9;
-    --color-primary-text: #333;
-    --color-secondary-background: #fff;
-    --color-shadow: #0000001a;
+	--color-accent: #c62828;
+	--color-border: #e0e0e0;
+	--color-hover: #ffffff25;
+	--color-link: #4361ee;
+	--color-primary-background: #f9f9f9;
+	--color-primary-text: #333;
+	--color-secondary-background: #fff;
+	--color-shadow: #0000001a;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 body {
-    background-color: var(--color-primary-background);
-    color: var(--color-primary-text);
+	background-color: var(--color-primary-background);
+	color: var(--color-primary-text);
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 .content {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding: 1.5rem;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	padding: 1.5rem;
 }
 
 .box,
 .modal {
-    align-items: start;
-    background: var(--color-secondary-background);
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 5px var(--color-shadow);
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    width: 100%;
+	align-items: start;
+	background: var(--color-secondary-background);
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 5px var(--color-shadow);
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	width: 100%;
 }
 
 .primary-title {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .secondary-title {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .tertiary-title {
-    font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 .paragraph {
-    font-size: 1rem;
+	font-size: 1rem;
 }
