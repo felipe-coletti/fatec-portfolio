@@ -2,7 +2,9 @@
 	align-items: center;
 	background-color: var(--color-accent);
 	color: var(--color-surface);
-	padding: 2rem;
+	justify-content: center;
+	min-height: 90vh;
+	padding: 1.5rem;
 	text-align: center;
 }
 
@@ -14,16 +16,16 @@
 	width: 8rem;
 }
 
-.github-link {
+.button {
 	border: 1px solid var(--color-surface);
 	border-radius: 0.5rem;
 	color: var(--color-surface);
 	display: inline-block;
-	padding: 0.5rem 1rem;
+	padding: 1rem;
 	text-decoration: none;
 }
 
-.github-link:hover {
+.button:hover {
 	background-color: var(--color-hover);
 }
 
@@ -33,6 +35,12 @@
 
 #header,
 .section {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.list {
 	display: flex;
 	flex-direction: column;
 	gap: 1.25rem;
