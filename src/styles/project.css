@@ -15,7 +15,7 @@
 }
 
 .back-link {
-	color: var(--color-primary-text);
+	color: var(--color-text-primary);
 	transition: color 0.3s;
 }
 
@@ -54,7 +54,7 @@
 .tag {
 	background-color: var(--color-accent);
 	border-radius: 1rem;
-	color: var(--color-secondary-background);
+	color: var(--color-surface);
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
 }

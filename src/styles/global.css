@@ -1,12 +1,12 @@
 :root {
 	--color-accent: #c62828;
+	--color-background: #f9f9f9;
 	--color-border: #e0e0e0;
 	--color-hover: #ffffff25;
 	--color-link: #4361ee;
-	--color-primary-background: #f9f9f9;
-	--color-primary-text: #333;
-	--color-secondary-background: #fff;
 	--color-shadow: #0000001a;
+	--color-surface: #fff;
+	--color-text-primary: #333;
 }
 
 * {
@@ -17,8 +17,8 @@
 }
 
 body {
-	background-color: var(--color-primary-background);
-	color: var(--color-primary-text);
+	background-color: var(--color-background);
+	color: var(--color-text-primary);
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 .box,
 .modal {
 	align-items: start;
-	background: var(--color-secondary-background);
+	background: var(--color-surface);
 	border-radius: 0.5rem;
 	box-shadow: 0 2px 5px var(--color-shadow);
 	display: flex;
