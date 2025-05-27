@@ -3,49 +3,41 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Portifólio de Felipe Coletti</title>
+		<title>Portfólio de Felipe Coletti</title>
 		<link rel="stylesheet" href="src/styles/global.css" />
 		<link rel="stylesheet" href="src/styles/index.css" />
+		<script src="src/scripts/loadProfile.js" defer></script>
 		<script src="src/scripts/loadProjects.js" defer></script>
 	</head>
 	<body>
 		<header id="header">
-			<img class="profile-photo" src="src/assets/images/profile-photo.jpg" alt="Foto de Felipe Coletti" />
-			<h1 class="primary-title">Felipe Coletti Silva</h1>
-			<p class="paragraph">Curso: Desenvolvimento de Software Multiplataforma - Fatec Zona Leste</p>
-			<p class="paragraph">Início: 2º semestre de 2022 | Conclusão: 1º semestre de 2025</p>
-			<a class="button" href="https://github.com/felipe-coletti" target="_blank">GitHub</a>
+			<img
+				id="profile-photo"
+				class="profile-photo"
+				src="src/assets/images/profile-photo.jpg"
+				alt="Foto de Felipe Coletti"
+			/>
+			<h1 id="profile-name" class="primary-title"></h1>
+			<p id="profile-course" class="paragraph"></p>
+			<p id="profile-period" class="paragraph"></p>
+			<ul id="social-media" class="button-area"></ul>
 		</header>
 		<main class="content">
-			<section class="section">
+			<section id="experience-section" class="section">
 				<h2 class="secondary-title">Experiência Profissional</h2>
-				<div class="box">
-					<h3 class="tertiary-title">Fatec Zona Leste</h3>
-					<p class="paragraph"><strong>Período:</strong> 03/2023 - 06/2023</p>
-					<p class="paragraph"><strong>Cargo:</strong> Estagiário de Design</p>
-					<p class="paragraph">
-						<strong>Atividades:</strong> Criação de protótipos de interface de alta fidelidade para um
-						sistema de gestão de projetos acadêmicos
-					</p>
-				</div>
+				<ul id="experiences-list" class="list"></ul>
 			</section>
-			<section class="section">
+			<section id="extension-section" class="section">
 				<h2 class="secondary-title">Cursos de Extensão</h2>
-				<ul class="list">
-					<li><p class="paragraph">Sem cursos de extensão realizados até o momento.</p></li>
-				</ul>
+				<ul id="extension-list" class="list"></ul>
 			</section>
-			<section class="section">
+			<section id="languages-section" class="section">
 				<h2 class="secondary-title">Idiomas</h2>
-				<ul class="list">
-					<li><p class="paragraph">Português - Fluente</p></li>
-					<li><p class="paragraph">Inglês - Básico</p></li>
-					<li><p class="paragraph">Espanhol - Básico</p></li>
-				</ul>
+				<ul id="languages-list" class="list"></ul>
 			</section>
-			<section class="section">
+			<section id="projects-section" class="section">
 				<h2 class="secondary-title">Meus Projetos</h2>
-				<div id="project-cards" class="project-cards"></div>
+				<div id="project-cards" class="button-area"></div>
 			</section>
 		</main>
 		<footer id="footer">

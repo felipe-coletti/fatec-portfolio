@@ -1,0 +1,42 @@
+{
+	"avatar": "src/assets/images/profile-photo.jpg",
+	"name": "Felipe Coletti Silva",
+	"courses": [
+		{
+			"name": "Desenvolvimento de Software Multiplataforma",
+			"unit": "Fatec Zona Leste",
+			"start": "2022-08",
+			"end": "2025-06"
+		}
+	],
+	"socialMedia": [
+		{
+			"name": "GitHub",
+			"src": "https://github.com/felipe-coletti"
+		}
+	],
+	"experiences": [
+		{
+			"company": "Fatec Zona Leste",
+			"position": "Estagiário de Design",
+			"start": "2023-03",
+			"end": "2023-06",
+			"description": "Criação de protótipos de interface de alta fidelidade para um sistema de gestão de projetos acadêmicos"
+		}
+	],
+	"extensionCourses": {},
+	"languages": [
+		{
+			"name": "Português",
+			"level": "Fluente"
+		},
+		{
+			"name": "Inglês",
+			"level": "Básico"
+		},
+		{
+			"name": "Espanhol",
+			"level": "Básico"
+		}
+	]
+}
