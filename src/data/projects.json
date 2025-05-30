@@ -18,7 +18,7 @@
 	{
 		"id": "2",
 		"name": "AudiTech",
-		"description": "Sistema hospitalar completo focado o atendimento de pacientes com TPAC com gestão de funcionários, agendamento de consulta e uma espécie de jogo que ajuda no tratamento. Fui responsavel pelo front end.",
+		"description": "Sistema hospitalar completo focado o atendimento de pacientes com TPAC com gestão de funcionários, agendamento de consulta e uma espécie de jogo que ajuda no tratamento. Fui responsavel pelo design e pelo front end.",
 		"src": "https://github.com/audi-med/treatment-frontend",
 		"technologies": ["React", "CSS Modules", "Java Spring Boot"],
 		"image": "./src/assets/screenshots/screenshot-auditech.jpeg"
@@ -26,7 +26,7 @@
 	{
 		"id": "3",
 		"name": "BookSystem",
-		"description": "Sistema de gerenciamento de biblioteca e aluguel automático de livros. Fui responsavel pelo front end e participei de coreeções no back end.",
+		"description": "Sistema de gerenciamento de biblioteca e aluguel automático de livros. Fui responsavel pelo front end e participei de correções no back end.",
 		"src": "https://github.com/felipe-coletti/BookSystem",
 		"technologies": ["React", "CSS Modules", "Java Spring Boot"],
 		"image": "./src/assets/screenshots/screenshot-booksystem.jpeg"
